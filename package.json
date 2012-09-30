@@ -15,7 +15,8 @@
     "ejs": "*",
     "stylus": "*",
     "passport-local": "0.1.6",
-    "passport": "0.1.12"
+    "passport": "0.1.12",
+    "connect-flash": "*"
   },
  "repository": {
     "type": "git",
