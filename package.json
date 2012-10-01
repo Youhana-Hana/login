@@ -8,7 +8,8 @@
   },
   "private": true,
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "test": "make test"
   },
   "dependencies": {
     "express": "3.0.0rc4",
@@ -18,6 +19,11 @@
     "passport": "0.1.12",
     "connect-flash": "*"
   },
+"devDependencies": {
+    "mocha": "1.4.x",
+    "sinon": "1.4.x",
+    "should": "1.2.x"
+},
  "repository": {
     "type": "git",
     "url": "git://github.com/Youhana-Hana/login.git"
